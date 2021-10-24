@@ -2,13 +2,13 @@
 
 use Celestriode\DynamicRegistry\AbstractStringRegistry;
 
-class SelectorSorts extends AbstractStringRegistry
+class SelectorTargets extends AbstractStringRegistry
 {
     /**
      * @inheritDoc
      */
     public function getName(): string
     {
-        return 'java.other.selector_sorts';
+        return 'java.other.selector_targets';
     }
 }
