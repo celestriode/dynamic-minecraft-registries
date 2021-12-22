@@ -1,6 +1,8 @@
 <?php namespace Celestriode\DynamicMinecraftRegistries\Java\Game\Registries;
 
-class BlockEntityTypes extends \Celestriode\DynamicRegistry\AbstractStringRegistry
+use Celestriode\DynamicRegistry\AbstractStringRegistry;
+
+class BlockEntityTypes extends AbstractStringRegistry
 {
     /**
      * @inheritDoc
